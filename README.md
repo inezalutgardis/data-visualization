@@ -4,6 +4,10 @@ This project explores Chicago crime data (2001–2017) through data cleaning, an
 
 The goal is to uncover patterns and trends in Chicago crime while showcasing data science skills for portfolio and academic purposes.  
 
+## 📥 Dataset
+The raw Chicago crime datasets (2001–2017) are too large to host in this repo.  
+You can download them directly from the [Chicago Data Portal](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2).
+
 ## 📊 Visualizations  
 
 ### 1. Crimes Per Year (2012–2016)  
@@ -53,5 +57,7 @@ data-visualization/
 │── crimes_per_year.png                # Screenshot of line chart
 │── top_crimes.png                     # Screenshot of bar chart
 │── README.md                          # Project documentation
-│── requirements.txt                   # Dependencies
+│── requirements.txt                   # Minimal dependencies for the project.
+│── requirements_full.txt              # Full environment freeze for exact replication.
+
 
