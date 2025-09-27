@@ -4,11 +4,11 @@ This project explores Chicago crime data (2001–2017) through data cleaning, an
 
 The goal is to uncover patterns and trends in Chicago crime while showcasing data science skills for portfolio and academic purposes.  
 
-## 📥 Dataset
+## Dataset
 The raw Chicago crime datasets (2001–2017) are too large to host in this repo.  
 You can download them directly from the [Chicago Data Portal](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2).
 
-## 📊 Visualizations  
+## Visualizations  
 
 ### 1. Crimes Per Year (2012–2016)  
 Line chart showing yearly crime trends after data cleaning and balancing.  
@@ -32,16 +32,16 @@ This is an interactive map built with Folium, plotting thousands of crime events
 
 Explore the full interactive version by opening [`chicago_crime_map.html`](chicago_crime_map.html) in your browser.  
 
-## ⚙️ Tech Stack  
+## Tech Stack  
 - Python  
 - Pandas (data cleaning & analysis)  
 - Matplotlib & Seaborn (statistical visualization)  
 - Folium (geospatial interactive map)  
 - Jupyter Notebook / VS Code (development environment)  
 
-## 📂 Project Structure  
+## Project Structure  
 Below I show what is in my folder "data-visualization"
-
+```
 data-visualization/
 │── .ipynb_checkpoints/                # Jupyter notebook checkpoints
 │── .vscode/                           # VS Code settings
@@ -59,5 +59,10 @@ data-visualization/
 │── README.md                          # Project documentation
 │── requirements.txt                   # Minimal dependencies for the project.
 │── requirements_full.txt              # Full environment freeze for exact replication.
-
-
+```
+## Requirements
+pandas
+matplotlib
+seaborn
+folium
+jupyter (for notebook support)

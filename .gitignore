@@ -1,0 +1,12 @@
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore large raw CSV files
+*.csv
