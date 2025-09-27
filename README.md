@@ -61,8 +61,8 @@ data-visualization/
 │── requirements_full.txt              # Full environment freeze for exact replication.
 ```
 ## Requirements
-pandas
-matplotlib
-seaborn
-folium
-jupyter (for notebook support)
+- pandas  
+- matplotlib  
+- seaborn  
+- folium  
+- jupyter (for notebook support)
