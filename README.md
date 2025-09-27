@@ -30,7 +30,7 @@ This is an interactive map built with Folium, plotting thousands of crime events
 
 ![Chicago Crime Map](crime_map.png)  
 
-Explore the full interactive version by opening [`chicago_crime_map.html`](chicago_crime_map.html) in your browser.  
+Explore the full interactive version by opening [`chicago_crime_map.html`](https://inezalutgardis.github.io/data-visualization/chicago_crime_map.html) in your browser.  
 
 ## Tech Stack  
 - Python  
